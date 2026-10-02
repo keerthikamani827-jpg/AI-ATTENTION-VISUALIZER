@@ -57,3 +57,52 @@ AI-ATTENTION-VISUALIZER/
 ├── requirements.txt
 ├── packages.txt
 └── README.md
+
+## How to Use
+
+Using the AI Attention Visualizer is very simple.
+
+### Step 1: Open the Application
+
+Open the Live Demo:
+
+[AI Attention Visualizer](https://ai-attention-visualizer-knnpvqf3bv6mtz3bbjlqst.streamlit.app/)
+
+### Step 2: Upload an Image
+
+Click **Browse files** and upload an image that contains text.
+
+### Step 3: Extract Text
+
+The application automatically reads the uploaded image using OCR and extracts the text.
+
+### Step 4: Generate Attention Scores
+
+The extracted words are converted into embeddings and attention scores are calculated.
+
+### Step 5: View the Results
+
+The application displays the extracted words and their attention scores.
+
+You can easily see which words have higher or lower attention.
+
+## How the Project Works
+
+```text
+Upload Image
+     ↓
+Extract Text using OCR
+     ↓
+Process the Words
+     ↓
+Generate Embeddings
+     ↓
+Calculate Attention Scores
+     ↓
+Display Results
+
+## Conclusion
+
+AI Attention Visualizer provides a simple way to understand how text extracted from images can be processed using embeddings and attention mechanisms.
+
+It combines OCR, Sentence Transformers, and Streamlit to make the concept easy to explore through an interactive application.
